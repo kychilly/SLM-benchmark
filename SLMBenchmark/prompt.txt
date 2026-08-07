@@ -1,0 +1,200 @@
+Prompt: You are solving a complete mathematics exam. Please follow these instructions carefully:
+Solve each question independently
+Temperature = 0
+Use only information provided in the exam
+DO NOT use any external tools, calculators, internet searches, or additional resources
+If you are uncertain, provide your best answer rather than leaving a question unanswered
+For each question, provide one sentence explaining your reasoning, followed by your final answer
+Use the exact format below for every question
+Question (n)
+Reasoning: One concise sentence explaining your approach.
+Final Answer: (letter choice)
+
+
+Continue this format until the final question. After the final question, do not include any additional summary or explanation. Provide final token count.
+
+The exam problems are attached:
+
+Problem 1
+The instructions on a 350-gram bag of coffee beans say that proper brewing of a large mug of pour-over coffee requires 20 grams of coffee beans. What is the greatest number of properly brewed large mugs of coffee that can be made from the coffee beans in that bag?
+(A) 16
+(B) 17
+(C) 18
+(D) 19
+(E) 20
+Problem 2
+Jerry wrote down the ones digit of each of the first 2025 positive squares: 1, 4, 9, 6, 5, 6, ... What is the sum of all the numbers Jerry wrote down?
+(A) 9025
+(B) 9070
+(C) 9090
+(D) 9115
+(E) 9160
+Problem 3
+What is the value of $i(i-1)(i-2)(i-3)$ where $i=\sqrt{-1}$?
+(A) $6-5i$
+(B) $10i$
+(C) $-10i$
+(D) $10$
+(E) $-10$
+Problem 4
+The value of the two-digit number $ab$ in base seven equals the value of the two-digit number $ba$ in base nine. What is $a+b$?
+(A) 7
+(B) 9
+(C) 10
+(D) 11
+(E) 14
+Problem 5
+Positive integers $x$ and $y$ satisfy the equation $57x+22y=400$. What is the least possible value of $x+y$?
+(A) 10
+(B) 11
+(C) 13
+(D) 14
+(E) 15
+Problem 6
+Emmy says to Max, "I ordered 36 math club sweatshirts today." Max asks, "How much did each shirt cost?" Emmy responds, "I'll give you a hint. The total cost was $ABB.BA, where A and B are digits and $A \ne 0$." After a pause, Max says, "That was a good price." What is $A+B$?
+(A) 7
+(B) 8
+(C) 11
+(D) 14
+(E) 15
+Problem 7
+What is the value of $\sum_{n=2}^{255} \frac{\log_{2}\left(1+\frac{1}{n}\right)}{(\log_{2}n)(\log_{2}(n+1))}$?
+(A) $\frac{3}{4}$
+(B) $1-\frac{1}{\log_{2}255}$
+(C) $\frac{7}{8}$
+(D) $\frac{15}{16}$
+(E) 1
+Problem 8
+There are integers $a$ and $b$ such that the polynomial $x^{3}-5x^{2}+ax+b$ has $4+\sqrt{5}$ as a root. What is $a+b$?
+(A) 13
+(B) 17
+(C) 20
+(D) 30
+(E) 68
+Problem 9
+What is the tens digit of $6^{6^{6}}$?
+(A) 1
+(B) 3
+(C) 5
+(D) 7
+(E) 9
+Problem 10
+The altitude to the hypotenuse of a $30-60-90^\circ$ right triangle is divided into two segments of $x < y$ by the median to the shortest side of the triangle. What is the ratio $\frac{x}{x+y}$?
+(A) $\frac{3}{7}$
+(B) $\frac{\sqrt{3}}{4}$
+(C) $\frac{4}{9}$
+(D) $\frac{5}{11}$
+(E) $\frac{4\sqrt{3}}{15}$
+Problem 11
+Nine athletes, no two of whom are the same height, try out for the basketball team. One at a time, they draw a wristband at random, without replacement, from a bag containing 3 blue bands, 3 red bands, and 3 green bands. They are divided into a blue group, a red group, and a green group. The tallest member of each group is named the group captain. What is the probability that the group captains are the three tallest athletes?
+(A) $\frac{2}{9}$
+(B) $\frac{2}{7}$
+(C) $\frac{9}{28}$
+(D) $\frac{1}{3}$
+(E) $\frac{3}{8}$
+Problem 12
+The windshield wiper on the driver's side of a large bus is depicted below. Arm $\overline{AB}$ pivots back and forth around point A, sweeping out an arc of $60^\circ$, symmetric about the vertical line through A. The wiper blade $\overline{CD}$ is attached to B at its midpoint and stays vertical as the arm moves. The arm is 3 feet long, and the wiper blade is 3.5 feet tall. What is the area of the windshield cleaned by the wiper, in square feet, to the nearest hundredth? (Assume that the windshield is a flat vertical surface.)
+(A) 9.68
+(B) 10.14
+(C) 10.50
+(D) 11.32
+(E) 12.00
+Problem 13
+A circle has been divided into 6 sectors of different sizes. Then 2 of the sectors are painted red, 2 painted green, and 2 painted blue so that no two neighboring sectors are painted the same color. One such coloring is shown. How many different colorings are possible?
+(A) 12
+(B) 16
+(C) 18
+(D) 24
+(E) 28
+Problem 14
+Consider a decreasing sequence of $n$ positive integers $x_{1} > x_{2} > \cdots > x_{n}$ that satisfies the following two conditions:
+The average (arithmetic mean) of the first 3 terms in the sequence is 2025.
+For all $4 \le k \le n$, the average of the first $k$ terms in the sequence is 1 less than the average of the first $k-1$ terms in the sequence.
+What is the greatest possible value of $n$?
+(A) 1013
+(B) 1014
+(C) 1016
+(D) 2016
+(E) 2025
+Problem 15
+A container has a $1 \times 1$ square bottom, a $3 \times 3$ open square top, and four congruent trapezoidal sides, as shown. Starting when the container is empty, a hose that runs water at a constant rate takes 35 minutes to fill the container up to the midline of the trapezoids. How many more minutes will it take to fill the remainder of the container?
+(A) 70
+(B) 85
+(C) 90
+(D) 95
+(E) 105
+Problem 16
+An analog clock starts at midnight and runs for 2025 minutes before stopping. What is the tangent of the acute angle between the hour hand and the minute hand when the clock stops?
+(A) 0
+(B) $\sqrt{2}-1$
+(C) $2-\sqrt{2}$
+(D) $\frac{\sqrt{2}}{2}$
+(E) $3-\sqrt{2}$
+Problem 17
+Each of the 9 squares in a $3 \times 3$ grid is to be colored red, blue, or yellow in such a way that each red square shares an edge with at least one blue square, each blue square shares an edge with at least one yellow square, and each yellow square shares an edge with at least one red square. Colorings that can be obtained from one another by rotations and/or reflections are to be considered the same. How many different colorings are possible?
+(A) 3
+(B) 9
+(C) 12
+(D) 18
+(E) 27
+Problem 18
+Awnik repeatedly plays a game that has a probability of winning of $\frac{1}{3}$. The outcomes of the games are independent. What is the expected value of the number of games he will play until he has both won and lost at least once?
+(A) $\frac{5}{2}$
+(B) 3
+(C) $\frac{16}{5}$
+(D) $\frac{7}{2}$
+(E) $\frac{15}{4}$
+Problem 19
+A rectangular grid of squares has 141 rows and 91 columns. Each square has room for two numbers. Horace and Vera each fill in the grid by putting the numbers from 1 through $141 \times 91 = 12,831$ into the squares. Horace fills the grid horizontally: he puts 1 through 91 in order from left to right into row 1, puts 92 through 182 into row 2 in order from left to right, and continues similarly through row 141. Vera fills the grid vertically: she puts 1 through 141 in order from top to bottom into column 1, then 142 through 282 into column 2 in order from top to bottom, and continues similarly through column 91. How many squares get two copies of the same number?
+(A) 7
+(B) 10
+(C) 11
+(D) 12
+(E) 19
+Problem 20
+A frog hops along the number line according to the following rules:
+It starts at 0.
+If it is at 0, then it moves to 1 with probability $\frac{1}{2}$ and it disappears with probability $\frac{1}{2}$.
+For $n = 1, 2, \text{ or } 3$, if it is at $n$, then it moves to $n+1$ with probability $\frac{1}{4}$, it moves to $n-1$ with probability $\frac{1}{4}$, and it disappears with probability $\frac{1}{2}$.
+What is the probability that the frog reaches 4?
+(A) $\frac{1}{101}$
+(B) $\frac{1}{100}$
+(C) $\frac{1}{99}$
+(D) $\frac{1}{98}$
+(E) $\frac{1}{97}$
+Problem 21
+Two non-congruent triangles have the same area. Each triangle has sides of length 8 and 9, and the third side of each triangle has integer length. What is the sum of the lengths of the third sides?
+(A) 20
+(B) 22
+(C) 24
+(D) 26
+(E) 28
+Problem 22
+What is the greatest possible area of the triangle in the complex plane with vertices 2, $(1+i)z$, and $(1-i)z$ where $z$ is a complex number satisfying $\vert{}4z-2\vert{}=1$?
+(A) $\frac{1}{4}$
+(B) $\frac{1}{2}$
+(C) $\frac{9}{16}$
+(D) $\frac{3}{4}$
+(E) 1
+Problem 23
+Let $S$ be the set of all integers $z > 1$ such that for all pairs of nonnegative integers $(x, y)$ with $x < y < z$, the remainder when $2025x$ is divided by $z$ is less than the remainder when $2025y$ is divided by $z$. What is the sum of the elements of $S$?
+(A) 3041
+(B) 3542
+(C) 3750
+(D) 4044
+(E) 4319
+Problem 24
+How many real numbers satisfy the equation $\sin(20\pi x) = \log_{20}(x)$?
+(A) 199
+(B) 200
+(C) 398
+(D) 399
+(E) 400
+Problem 25
+Three concentric circles have radii 1, 2, 3. An equilateral triangle with side length $s$ has one vertex on each circle. What is $s^{2}$?
+(A) 6
+(B) $\frac{25}{4}$
+(C) $\frac{13}{2}$
+(D) $\frac{27}{4}$
+(E) 7
+
