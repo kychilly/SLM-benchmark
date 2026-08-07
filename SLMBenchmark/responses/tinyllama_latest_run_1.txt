@@ -1,0 +1,74 @@
+Problem 1
+The answer is (C): $s^2 = \frac{6}{4}$.
+
+Problem 2
+The answer is (B): 1.
+
+Problem 3
+The answer is (D): 1.
+
+Problem 4
+The answer is (E): 7.
+
+Problem 5
+The answer is (A): 1.
+
+Problem 6
+The answer is (C): $s^2 = \frac{6}{4}$.
+
+Problem 7
+The answer is (B): 1.
+
+Problem 8
+The answer is (D): 1.
+
+Problem 9
+The answer is (E): 7.
+
+Problem 10
+The answer is (A): 1.
+
+Problem 11
+The answer is (C): $s^2 = \frac{6}{4}$.
+
+Problem 12
+The answer is (B): 1.
+
+Problem 13
+The answer is (D): 1.
+
+Problem 14
+The answer is (E): 7.
+
+Problem 15
+The answer is (A): 1.
+
+Problem 16
+The answer is (C): $s^2 = \frac{6}{4}$.
+
+Problem 17
+The answer is (B): 1.
+
+Problem 18
+The answer is (D): 1.
+
+Problem 19
+The answer is (E): 7.
+
+Problem 20
+The answer is (A): 1.
+
+Problem 21
+The answer is (C): $s^2 = \frac{6}{4}$.
+
+Problem 22
+The answer is (B): 1.
+
+Problem 23
+The answer is (D): 1.
+
+Problem 24
+The answer is (E): 7.
+
+Problem 25
+The answer is (A): 1.

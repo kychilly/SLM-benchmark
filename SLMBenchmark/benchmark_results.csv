@@ -1,0 +1,2 @@
+timestamp,model,run,status,temperature,top_p,context_length,max_output_tokens,seed,wall_clock_latency_s,ollama_total_duration_s,model_load_duration_s,prompt_processing_duration_s,generation_duration_s,prompt_tokens,output_tokens,total_tokens,output_tokens_per_second,response_file,error
+2026-08-07T04:36:51,tinyllama:latest,1,success,0,1.0,2048,1000,42,13.6437,13.6339,1.237,3.493,8.8733,1026,435,1461,49.0236,responses\tinyllama_latest_run_1.txt,

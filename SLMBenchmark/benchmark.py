@@ -16,12 +16,10 @@ MODELS = [
 
 TEMPERATURE = 0
 TOP_P = 1.0
-CONTEXT_LENGTH = 8192
-MAX_OUTPUT_TOKENS = 4000
+CONTEXT_LENGTH = 2048  # Reduced to fit TinyLlama's maximum native context
+MAX_OUTPUT_TOKENS = 1000
 SEED = 42
 
-# Start with 1 while testing.
-# For the final experiment, change this to 5.
 NUMBER_OF_RUNS = 1
 
 PROMPT_FILE = Path("prompt.txt")
@@ -43,7 +41,7 @@ RESPONSES_DIR.mkdir(parents=True, exist_ok=True)
 if not PROMPT_FILE.exists():
     raise FileNotFoundError(
         "prompt.txt was not found. Create prompt.txt in the same folder "
-        "as benchmark.ipynb and paste the full exam prompt into it."
+        "as benchmark.py and paste the full exam prompt into it."
     )
 
 prompt = PROMPT_FILE.read_text(encoding="utf-8").strip()
@@ -235,7 +233,7 @@ print("\n" + "=" * 70)
 print(f"Detailed results saved to: {RESULTS_FILE}")
 print("=" * 70)
 
-display(results_df)
+print(results_df)
 
 
 # ============================================================
@@ -290,7 +288,7 @@ if not successful_results.empty:
     )
 
     print("\nBenchmark summary:")
-    display(summary_df)
+    print(summary_df)
 
 else:
     print("No model completed successfully.")
