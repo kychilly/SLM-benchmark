@@ -1,2 +1,4 @@
-timestamp,model,run,status,temperature,top_p,context_length,max_output_tokens,seed,wall_clock_latency_s,ollama_total_duration_s,model_load_duration_s,prompt_processing_duration_s,generation_duration_s,prompt_tokens,output_tokens,total_tokens,output_tokens_per_second,response_file,error
-2026-08-07T04:36:51,tinyllama:latest,1,success,0,1.0,2048,1000,42,13.6437,13.6339,1.237,3.493,8.8733,1026,435,1461,49.0236,responses\tinyllama_latest_run_1.txt,
+timestamp,model,run,status,correct_answers,total_questions,accuracy_pct,temperature,top_p,context_length,max_output_tokens,seed,wall_clock_latency_s,ollama_total_duration_s,model_load_duration_s,prompt_processing_duration_s,generation_duration_s,prompt_tokens,output_tokens,total_tokens,output_tokens_per_second,response_file,error
+2026-08-07T05:29:56,qwen2.5:3b,1,success,0,25,0.0,0,1.0,8192,4096,42,88.2433,88.2344,4.4159,33.3154,50.4761,2989,622,3611,12.3227,responses\qwen2.5_3b_run_1.txt,
+2026-08-07T05:32:13,phi4-mini,1,success,8,25,32.0,0,1.0,8192,4096,42,137.465,137.4629,6.279,39.575,91.5281,2772,866,3638,9.4616,responses\phi4-mini_run_1.txt,
+2026-08-07T05:36:06,llama3.2:3b,1,success,8,25,32.0,0,1.0,8192,4096,42,233.0574,233.0542,5.8615,32.0815,195.0868,2803,1805,4608,9.2523,responses\llama3.2_3b_run_1.txt,

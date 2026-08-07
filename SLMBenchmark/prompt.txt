@@ -197,4 +197,3 @@ Three concentric circles have radii 1, 2, 3. An equilateral triangle with side l
 (C) $\frac{13}{2}$
 (D) $\frac{27}{4}$
 (E) 7
-
