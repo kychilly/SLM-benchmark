@@ -1,0 +1,3 @@
+timestamp,model,run,status,correct_answers,total_questions,accuracy_pct,temperature,top_p,context_length,max_output_tokens,seed,wall_clock_latency_s,ollama_total_duration_s,model_load_duration_s,prompt_processing_duration_s,generation_duration_s,prompt_tokens,output_tokens,total_tokens,output_tokens_per_second,response_file,error
+2026-08-14T06:07:55,phi4-mini,1,success,14,25,56.0,0,1.0,8192,1000,42,28.8848,28.8735,0.57,0.1165,28.1238,2589,296,2885,10.5249,C:\Users\jyam4\PycharmProjects\PythonProject2\SLMBenchmark\responses\phi4-mini_run_1.txt,
+2026-08-14T06:08:26,llama3.2:3b,1,success,12,25,48.0,0,1.0,8192,1000,42,31.1779,31.1746,0.4829,0.123,30.5452,2621,363,2984,11.884,C:\Users\jyam4\PycharmProjects\PythonProject2\SLMBenchmark\responses\llama3.2_3b_run_1.txt,

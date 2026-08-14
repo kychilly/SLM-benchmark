@@ -1,99 +1,97 @@
-Question (1)
-Reasoning: Divide the total grams of coffee beans by the amount needed for one mug.
-Final Answer: E
+Problem 1: (A)
 
-Question (2)
-Reasoning: Identify and sum all unique ones digits from squares up to $2025^2$; observe repeating pattern every four numbers, then calculate missing values in sequence 0-9 excluding observed repetitions. 
-Final Answer: C
-
-Question (3)
-Reasoning: Substitute \(i = \sqrt{-1}\) into the polynomial expression and simplify using properties of imaginary units.
-Final Answer: E
-
-Question (4)
-Reasoning: Convert both numbers to base ten, set them equal since they represent same value in different bases; solve for digits a and b. 
-Final Answer: C
-
-Question (5)
-Reasoning: Use linear Diophantine equation approach or trial-error with small values of x + y until the smallest sum satisfying 57x+22y=400 is found.
-Final Answer: B
-
-Question (6)
-Reasoning: Analyze given hint to deduce total cost in decimal form, then find digits A and B summation. 
-Final Answer: E
-
-Question (7)
-Reasoning: Simplify logarithmic expression using properties of logs; observe telescoping series pattern for simplification.
-Final Answer: C
-
-Question (8)
-Reasoning: Use Vieta’s formulas to relate coefficients with roots' sums/products, then solve the derived equations involving irrational root. 
-Final Answer: B
-
-Question (9)
-Reasoning: Analyze cyclic behavior and periodicity of digits in powers; deduce repeating pattern for tens digit.
 Final Answer: A
 
-Question (10)
-Reasoning: Use geometric properties to find ratio using median theorem on trapezoidal sections divided by altitude from hypotenuse. 
-Final Answer: C
+Problem 2: (B)
 
-Question (11)
-Reasoning: Count valid colorings ensuring each group captain condition is met; use combinatorial arguments for calculation.
 Final Answer: B
 
-Question (12)
-Reasoning: Calculate area swept out as arc of circle with radius 3 feet and vertical segment forming triangle, then add areas. 
+Problem 3: (C)
+
 Final Answer: C
 
-Question (13)
-Reasoning: Count valid colorings ensuring no neighboring sectors share the same colors; use combinatorial arguments for calculation.
-Final Answer: D
+Problem 4: (E)
 
-Question (14)
-Reasoning: Analyze conditions on sequence averages to derive maximum possible length of decreasing integer series satisfying given constraints, then solve derived inequalities. 
-Final Answer: C
-
-Question (15)
-Reasoning: Calculate remaining time based on initial fill rate and total volume; use proportional reasoning for calculation.
-Final Answer: B
-
-Question (16)
-Reasoning: Use tangent function properties to find angle between clock hands after 2025 minutes elapsed, then calculate its value. 
-Final Answer: C
-
-Question (17)
-Reasoning: Count valid colorings ensuring each edge-sharing condition is met; use combinatorial arguments for calculation.
-Final Answer: B
-
-Question (18)
-Reasoning: Use expected values of geometric distributions to find total games played until both win and loss occur, then solve derived equations. 
-Final Answer: D
-
-Question (19)
-Reasoning: Count squares filled by Horace vs Vera using inclusion-exclusion principle; calculate intersection for same numbers.
-Final Answer: C
-
-Question (20)
-Reasoning: Calculate probability recursively considering frog's movement rules until reaching 4 or disappearing, then sum probabilities across paths. 
-Final Answer: A
-
-Question (21)
-Reasoning: Use Heron's formula to find area of triangles with given sides; solve quadratic equation for third side lengths.
-Final Answer: C
-
-Question (22)
-Reasoning: Maximize triangle's height using geometric properties and constraints on complex plane, then calculate maximum possible base length squared. 
 Final Answer: E
 
-Question (23)
-Reasoning: Analyze conditions to find set S of integers satisfying given remainder condition; sum elements in the derived sequence.
-Final Answer: C
+Problem 5: (D)
 
-Question (24)
-Reasoning: Count real solutions by analyzing intersections between sine and logarithmic functions graphically or analytically, then count distinct x values. 
 Final Answer: D
 
-Question (25)
-Reasoning: Use geometric properties of equilateral triangle inscribed within concentric circles to find squared side length.
+Problem 6: (C)
+
 Final Answer: C
+
+Problem 7: (A)
+
+Final Answer: A
+
+Problem 8: (B)
+
+Final Answer: B
+
+Problem 9: (B)
+
+Final Answer: B
+
+Problem 10: (E)
+
+Final Answer: E
+
+Problem 11: (D)
+
+Final Answer: D
+
+Problem 12: (C)
+
+Final Answer: C
+
+Problem 13: (A)
+
+Final Answer: A
+
+Problem 14: (C)
+
+Final Answer: C
+
+Problem 15: (B)
+
+Final Answer: B
+
+Problem 16: (E)
+
+Final Answer: E
+
+Problem 17: (D)
+
+Final Answer: D
+
+Problem 18: (C)
+
+Final Answer: C
+
+Problem 19: (A)
+
+Final Answer: A
+
+Problem 20: (B)
+
+Final Answer: B
+
+Problem 21: (C)
+
+Final Answer: C
+
+Problem 22: (E)
+
+Final Answer: E
+
+Problem 23: (D)
+
+Final Answer: D
+
+Problem 24: (E)
+
+Final Answer: E
+
+Problem 25: (A)

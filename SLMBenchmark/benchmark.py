@@ -24,9 +24,11 @@ SEED = 42
 
 NUMBER_OF_RUNS = 1
 
-PROMPT_FILE = Path("prompt.txt")
-RESPONSES_DIR = Path("responses")
-RESULTS_FILE = Path("benchmark_results.csv")
+# --- PATH SETTINGS ---
+BASE_DIR = Path(__file__).parent
+PROMPT_FILE = BASE_DIR / "prompt2.txt"
+RESPONSES_DIR = BASE_DIR / "responses"
+RESULTS_FILE = BASE_DIR / "benchmark_results2.csv"
 
 # Answer Key for Questions 1 through 25
 ANSWER_KEY = {
