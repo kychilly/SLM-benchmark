@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 plt.style.use('seaborn-v0_8-whitegrid' if 'seaborn-v0_8-whitegrid' in plt.style.available else 'default')
 
 # Extended figure width (16x5) flattens the visual slope of the Pareto frontier
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 5), dpi=300)
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4), dpi=300)
 
 # Data from Table
 models = ['Gemini 3.6 (LLM)', 'Phi-4-Mini (SLM)', 'Llama3.2-3B (SLM)']
@@ -57,6 +57,6 @@ ax2.set_xlim(0, 1400)
 ax2.legend(loc='upper left', frameon=True)
 
 plt.tight_layout()
-plt.savefig('pareto_frontier_analysis.png', dpi=300)
+plt.savefig('pareto_frontier_analysis.png', dpi=600)
 print("AMC12 results printed in pareto_frontier_analysis.png")
 plt.show()
