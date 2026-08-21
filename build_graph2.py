@@ -20,8 +20,8 @@ data = [
         "dominated": False,
     },
     {
-        "model": "SLM (Phi-4-mini)",
-        "label": "Phi-4-mini",
+        "model": "SLM (Phi-4-Mini)",
+        "label": "Phi-4-Mini",
         "acc": 56,
         "latency": 29,
         "tokens": 296,
@@ -31,8 +31,8 @@ data = [
         "dominated": False,
     },
     {
-        "model": "SLM (Llama-3.2-3B - Dominated)",
-        "label": "Llama-3.2-3B",
+        "model": "SLM (Llama3.2-3B - Dominated)",
+        "label": "Llama3.2-3B",
         "acc": 48,
         "latency": 31,
         "tokens": 363,
@@ -77,7 +77,7 @@ for pt in data:
     annot_text = f"{pt['label']}\n({pt['acc']}%, {pt['latency']}s)"
 
     # Adjust offsets for clear placement from origin
-    y_offset = -6 if pt["label"] == "Llama-3.2-3B" else 3
+    y_offset = -6 if pt["label"] == "Llama3.2-3B" else 3
     ax1.annotate(
         annot_text,
         (pt["latency"], pt["acc"]),
@@ -87,7 +87,7 @@ for pt in data:
         color="#222222" if not pt["dominated"] else "#666666",
     )
 
-ax1.set_title("A) Accuracy vs. Latency Pareto Frontier", fontweight="bold", pad=12)
+ax1.set_title("2.A) Accuracy vs. Latency Pareto Frontier", fontweight="bold", pad=12)
 ax1.set_xlabel("Latency (Seconds)", fontweight="bold")
 ax1.set_ylabel("Accuracy (%)", fontweight="bold")
 
@@ -125,7 +125,7 @@ for pt in data:
     )
     annot_text = f"{pt['label']}\n({pt['acc']}%, {pt['tokens']} tokens)"
 
-    y_offset = -6 if pt["label"] == "Llama-3.2-3B" else 3
+    y_offset = -6 if pt["label"] == "Llama3.2-3B" else 3
     ax2.annotate(
         annot_text,
         (pt["tokens"], pt["acc"]),
@@ -135,7 +135,7 @@ for pt in data:
         color="#222222" if not pt["dominated"] else "#666666",
     )
 
-ax2.set_title("B) Accuracy vs. Computational Cost Pareto Frontier", fontweight="bold", pad=12)
+ax2.set_title("2.B) Accuracy vs. Computational Cost Pareto Frontier", fontweight="bold", pad=12)
 ax2.set_xlabel("Token Count (Cost Proxy)", fontweight="bold")
 
 # Force 0 to Max scale

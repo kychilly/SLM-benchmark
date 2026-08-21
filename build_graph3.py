@@ -22,8 +22,8 @@ x = np.arange(len(exams))
 width = 0.35
 
 # Model Specs (Reordered: [AMC 8, AMC 12])
-# Phi-4-mini: 56% (AMC8), 32% (AMC12) | 29s (AMC8), 88s (AMC12) | 296 (AMC8), 622 (AMC12)
-# Llama-3.2-3B: 48% (AMC8), 32% (AMC12) | 31s (AMC8), 137s (AMC12) | 363 (AMC8), 866 (AMC12)
+# Phi-4-Mini: 56% (AMC8), 32% (AMC12) | 29s (AMC8), 88s (AMC12) | 296 (AMC8), 622 (AMC12)
+# Llama3.2-3B: 48% (AMC8), 32% (AMC12) | 31s (AMC8), 137s (AMC12) | 363 (AMC8), 866 (AMC12)
 
 phi_acc = [56, 32]
 llama_acc = [48, 32]
@@ -46,14 +46,14 @@ fig, axes = plt.subplots(1, 3, figsize=(15, 5))
 # ==============================================================================
 ax1 = axes[0]
 rects1 = ax1.bar(
-    x - width / 2, phi_acc, width, label="Phi-4-mini", color=c_phi
+    x - width / 2, phi_acc, width, label="Phi-4-Mini", color=c_phi
 )
 rects2 = ax1.bar(
-    x + width / 2, llama_acc, width, label="Llama-3.2-3B", color=c_llama
+    x + width / 2, llama_acc, width, label="Llama3.2-3B", color=c_llama
 )
 
 ax1.set_ylabel("Accuracy (%)")
-ax1.set_title("A) Accuracy Comparison")
+ax1.set_title("3.A) Accuracy Comparison")
 ax1.set_xticks(x)
 ax1.set_xticklabels(exams)
 ax1.set_ylim(0, 70)
@@ -66,14 +66,14 @@ ax1.bar_label(rects2, padding=3, fmt="%d%%", weight="bold")
 # ==============================================================================
 ax2 = axes[1]
 rects3 = ax2.bar(
-    x - width / 2, phi_lat, width, label="Phi-4-mini", color=c_phi
+    x - width / 2, phi_lat, width, label="Phi-4-Mini", color=c_phi
 )
 rects4 = ax2.bar(
-    x + width / 2, llama_lat, width, label="Llama-3.2-3B", color=c_llama
+    x + width / 2, llama_lat, width, label="Llama3.2-3B", color=c_llama
 )
 
 ax2.set_ylabel("Latency (Seconds)")
-ax2.set_title("B) Latency Comparison")
+ax2.set_title("3.B) Latency Comparison")
 ax2.set_xticks(x)
 ax2.set_xticklabels(exams)
 ax2.set_ylim(0, 160)
@@ -86,14 +86,14 @@ ax2.bar_label(rects4, padding=3, fmt="%ds", weight="bold")
 # ==============================================================================
 ax3 = axes[2]
 rects5 = ax3.bar(
-    x - width / 2, phi_tok, width, label="Phi-4-mini", color=c_phi
+    x - width / 2, phi_tok, width, label="Phi-4-Mini", color=c_phi
 )
 rects6 = ax3.bar(
-    x + width / 2, llama_tok, width, label="Llama-3.2-3B", color=c_llama
+    x + width / 2, llama_tok, width, label="Llama3.2-3B", color=c_llama
 )
 
 ax3.set_ylabel("Token Count (Cost Proxy)")
-ax3.set_title("C) Computational Cost")
+ax3.set_title("3.C) Computational Cost")
 ax3.set_xticks(x)
 ax3.set_xticklabels(exams)
 ax3.set_ylim(0, 1000)
@@ -103,7 +103,7 @@ ax3.bar_label(rects6, padding=3, fmt="%d", weight="bold")
 
 # Overall Layout Adjustments
 plt.suptitle(
-    "Head-to-Head SLM Benchmark Comparison: Phi-4-mini vs. Llama-3.2-3B",
+    "Head-to-Head SLM Benchmark Comparison: Phi-4-Mini vs. Llama3.2-3B",
     fontsize=14,
     weight="bold",
     y=1.02,
@@ -112,7 +112,7 @@ plt.tight_layout()
 
 # Save plot to file
 plt.savefig("SLMGraphAnalysis.png", dpi=300, bbox_inches="tight")
-print("Graph successfully saved")
+print("Graph successfully saved to SLMGraphAnalysis.png")
 
 # Display
 plt.show()
